@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Listar">
+
+    <ListView
+        android:layout_width="402dp"
+        android:layout_height="474dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Contactos"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="153dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Buscar contacto"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Contacto"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="167dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
